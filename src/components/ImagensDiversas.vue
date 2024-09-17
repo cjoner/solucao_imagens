@@ -1,8 +1,7 @@
 <!--      Otimização de imagens    -->
-      
-<!-- OPÇÃO 1 (Thumbnails - MAIS EFICIENTE)-->
-<!-- <template>
+<template>
   <div>
+    <h1> OPÇÃO 1 (Thumbnails - MAIS EFICIENTE) </h1>
     <p>
       <img src="@/assets/img3.png" 
            srcset="@/assets/img3-400w.png 400w, 
@@ -31,11 +30,10 @@
            alt="um tigre deitado descansando">
     </section>
   </div>
-</template> -->
 
-<!-- OPÇÃO 2 (Pré-carregamento - MENOS EFICIENTE)-->
-<template>
+
   <div>
+    <h1> OPÇÃO 2 (Pré-carregamento - MENOS EFICIENTE) </h1>
     <p>
       <img src="../assets/img3.png" rel="preload" width="800" height="400">
     </p>
