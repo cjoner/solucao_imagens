@@ -1,0 +1,1 @@
+https://solucaoimagens.netlify.app/
